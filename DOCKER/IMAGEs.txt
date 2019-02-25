@@ -1,0 +1,31 @@
+container images-------------------------------------------------
+
+what is an image ?
+app binaries and dependencies.
+metadata about the image data and how to run the image .
+
+Docker HUB ------------------------------------------------------hub.docker.com
+
+image layers-----------------------------------------------------
+
+$ docker history nginx:latest  shows the all the changes made in the image since it was created.
+$ docker image inspect <image name> details of image 
+
+Docker file-------------------------------------------------------
+
+$ cd dockerfile-sample-1  "this could be his personal folder" 
+$ vim Dockerfile
+
+----Example---works top down order matters
+                     
+                     FROM       debian:jessie
+                     ENV        used to set environment variables
+                     RUN        to run cmd
+                     EXPOSE     port
+                     CMD        
+
+
+
+
+
+ 

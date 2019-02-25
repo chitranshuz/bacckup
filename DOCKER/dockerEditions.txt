@@ -1,0 +1,9 @@
+-----DOCKER EDITIONS--------------------------------------------------
+
+1.There are 2 docker edition: CE(community edition) ans EE(enterprise edition).
+2.Three major type of installs : Direct(like linux) , MAC/WIN , cloud(AWS,azure,GOOGLE).
+3.DOCKER CE(free)/EE(paid).
+
+
+
+

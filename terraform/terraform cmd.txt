@@ -1,0 +1,6 @@
+terraform init
+terraform plan -out tf.out
+terraform apply
+terraform destroy
+
+sudo shutdown now

@@ -1,0 +1,51 @@
+EC2:
+=======================
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) 
+cloud. Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy 
+applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure 
+security and networking, and manage storage. Amazon EC2 enables you to scale up or down to handle changes in 
+requirements or spikes in popularity, reducing your need to forecast traffic.
+
+EC2 Container service:
+=======================
+Use to run docker container and scale 
+Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that 
+makes it easy to run, stop, and manage Docker containers on a cluster. You can host your cluster on a serverless 
+infrastructure that is managed by Amazon ECS by launching your services or tasks using the Fargate launch type.
+For more control you can host your tasks on a cluster of Amazon Elastic Compute Cloud (Amazon EC2) instances 
+that you manage by using the EC2 launch type.
+Amazon ECS lets you launch and stop container-based applications with simple API calls, allows you to get the 
+state of your cluster from a centralized service, and gives you access to many familiar Amazon EC2 features.
+
+Elastic beanstalk:
+==================
+With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without worrying about 
+the infrastructure that runs those applications. AWS Elastic Beanstalk reduces management complexity without 
+restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles 
+the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+
+Lambda:
+===============
+AWS Lambda is a compute service that lets you run code without provisioning or managing servers. 
+AWS Lambda executes your code only when needed and scales automatically, from a few requests per day to thousands
+per second. 
+
+Amazon Lightsail:
+==================
+Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. 
+Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage,
+data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail
+servers through the Lightsail console or by using the API or command-line interface (CLI).
+
+AWS Batch: (what is batch --> Batch processing is a general term used for frequently used programs that are 
+executed with minimum human interaction)
+============================================
+AWS Batch enables you to run batch computing workloads on the AWS Cloud. Batch computing is a common way for
+developers, scientists, and engineers to access large amounts of compute resources, and AWS Batch removes the 
+undifferentiated heavy lifting of configuring and managing the required infrastructure, similar to traditional
+batch computing software. This service can efficiently provision resources in response to jobs submitted in 
+order to eliminate capacity constraints, reduce compute costs, and deliver results quickly.
+
+
+
+

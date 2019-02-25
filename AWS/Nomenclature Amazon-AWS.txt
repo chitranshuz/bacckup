@@ -1,0 +1,11 @@
+The pattern is that utility services are prefixed with AWS, while standalone services are prefixed by "Amazon".
+
+Services prefixed with AWS typically use other services, for example:
+
+• AWS Elastic Beanstalk, AWS OpsWorks and AWS CloudFormation launch other services
+
+• AWS Lambda is triggered by other services
+
+• AWS Data Pipeline moves data between other services
+
+• AWS CloudFormation launches other services

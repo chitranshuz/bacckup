@@ -1,0 +1,8 @@
+volumes and bind mounts------------------------------------
+
+volume : make special location outside of container ufs.
+bind mount : link container path to host path.
+
+Persistent data : volumes --------------------------------
+in doker file we define volume tag that defines that all the files related to that container stores there.
+  

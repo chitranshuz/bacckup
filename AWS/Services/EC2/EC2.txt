@@ -1,0 +1,17 @@
+what is ec2 ?
+
+amazon elatic compute cloud is a web service that provides resizable compute acpacity in the cloud. amazon ec2 reduce the 
+time to obtain and boot new server instance to minutes allow to quikly scale capacity 
+
+ec2 options 
+===============
+on demand 
+reserved
+spot 
+dedicated host
+
+EBS(elastic block storage )
+============================
+
+use to attach the storage to ec2 instance its like a virtual storage like c drive d drive in windows.
+

@@ -1,0 +1,10 @@
+elastic load balancer 
+===========================
+
+balances load between across web servers.
+
+1.application 
+2.network
+3.classic 
+
+ 

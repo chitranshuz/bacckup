@@ -1,0 +1,45 @@
+images vs containers ---------------------
+
+1.an image is an application we want to run.
+2.a container is an instance of that image running as a process.
+3.many container run the same image.
+4.docker default image "registry" is called docker hub. (hub.docker.com).
+
+$ docker container run --publish 80:80 nginx
+
+we can also use 
+
+$ docker container run --publish 80:80 --detach nginx it will run it in background.
+
+to list running containers 
+$docker container ls
+
+stop conatiners
+$ docker container stop <container  ID>
+
+$docker conatiner ls -a   list containers in machine if running or not does't matters.
+
+we can define the name of container 
+$ dcoker container run --publish 80:80 --detach --name <anyName> nginx
+
+to see logs of any container 
+$ docker container logs <container name>
+
+$ docker container --help to see all cmd we can use
+
+to remove container
+$ docker container rm <container ID> can also use -f after rm to force remove
+
+
+
+what happens when we run container---------------------------------------------------------------------------
+1.Look for the image locally in image cache 
+2.then look in image repo aka Docker hub.
+3.download latest version
+4.create new container based on thet image.
+5.gives it a virtual IP on a private network inside docker engine.
+6.open up port 80 on host and forword to port 80 in container.
+7.start container using CMD in the image Dockerfile.
+
+
+

@@ -1,0 +1,7 @@
+CDN (content delivery network) 
+
+- is a system of distributed servers that deliver webpages and other web contents to 
+a user based on the geographical location of the user the origin of the webpage and the content delivery server.
+
+by setting up the distribution location of our file we can actually cache our file on the distributed location
+and load it quickly.

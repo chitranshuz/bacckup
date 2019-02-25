@@ -1,0 +1,27 @@
+DNS 
+==========
+converts human friendly names to an internaet protocol IP address.
+
+IP add is used by computer to identify each other on the network 
+
+1.IPV4:32 bit field and has over 4 billion diff addr
+2.IPV6: has addr space 128 bits or 340 undecillion addr 
+
+top level domains 
+    .com                                       .gov.uk 
+      |                                              |
+     this is a top level domain name          this is secound level domain name 
+
+these top level domain names are controlled by internet assigned numbers authority 
+
+Domian registrars:
+===================
+all the domain name must be unique and thus to see this domain regitrars come in picture. it gives unique domain name 
+and stores it in the Whois database 
+
+popular domain registrars include Godaddy.com
+
+
+
+       
+

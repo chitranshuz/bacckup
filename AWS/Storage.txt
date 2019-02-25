@@ -1,0 +1,49 @@
+S3:(simple storage service)
+=============================
+Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for
+developers.
+
+Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any 
+time, from anywhere on the web. It gives any developer access to the same highly scalable, reliable, fast, 
+inexpensive data storage infrastructure that Amazon uses to run its own global network of web sites. The service 
+aims to maximize benefits of scale and to pass those benefits on to developers.
+
+EFS:(Elastic file system)
+=========================
+Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2. With 
+Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your 
+applications have the storage they need, when they need it. Amazon EFS has a simple web services interface that 
+allows you to create and configure file systems quickly and easily. The service manages all the file storage 
+infrastructure for you, meaning that you can avoid the complexity of deploying, patching, and maintaining complex 
+file system configurations.
+
+Glacier:
+=========
+Glacier is an extremely low-cost storage service that provides durable storage with security features for data 
+archiving and backup. With Glacier, customers can store their data cost effectively for months, years, or even 
+decades. Glacier enables customers to offload the administrative burdens of operating and scaling storage to AWS, 
+so they don't have to worry about capacity planning, hardware provisioning, data replication, hardware failure 
+detection and recovery, or time-consuming hardware migrations. 
+
+Snowball:
+==========
+AWS Snowball is a service that accelerates transferring large amounts of data into and out of AWS using physical 
+storage devices, bypassing the Internet. Each AWS Snowball device type can transport data at faster-than internet 
+speeds. This transport is done by shipping the data in the devices through a regional carrier. The devices are 
+rugged shipping containers, complete with E Ink shipping labels.
+
+With a Snowball, you can transfer hundreds of terabytes or petabytes of data between your on-premises data 
+centers and Amazon Simple Storage Service (Amazon S3). AWS Snowball uses Snowball appliances and provides 
+powerful interfaces that you can use to create jobs, transfer data, and track the status of your jobs through to 
+completion. By shipping your data in Snowballs, you can transfer large amounts of data at a significantly faster 
+rate than if you were transferring that data over the Internet, saving you time and money.
+
+
+Storage gateway:
+=================
+AWS Storage Gateway connects an on-premises software appliance with cloud-based storage to provide seamless 
+integration with data security features between your on-premises IT environment and the AWS storage 
+infrastructure. You can use the service to store data in the AWS Cloud for scalable and cost-effective storage 
+that helps maintain data security.
+
+AWS Storage Gateway offers file-based, volume-based, and tape-based storage solutions.more details online

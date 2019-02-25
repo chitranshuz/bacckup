@@ -1,0 +1,10 @@
+https://github.com/wardviaene/terraform-course
+Download URL: https://www.terraform.io/downloads.html
+AWS Resources: https://www.terraform.io/docs/providers/aws/
+List of providers: https://www.terraform.io/docs/providers/index.html
+
+
+link for eks 
+https://github.com/WesleyCharlesBlake/terraform-aws-eks/tree/master/modules/eks
+
+https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_Terraform_EKS.php

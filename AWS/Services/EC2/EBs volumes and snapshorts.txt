@@ -1,0 +1,24 @@
+volumes and snapshorts 
+
+1.volumes exist on ebs
+  --is a virtual hard disk 
+
+2.snapshorts exist on S3
+
+3.snapshorts are point in time copied of volumes.
+
+4.snapshorts are incremental -this means that only the blocks that have changed since your last snapshort are moved 
+to S3.
+
+5.to create snapshort we should stop the instance however we can create it while instance is running
+
+6.we can create AMI from EBS instance or snapshort.
+
+7.you can change EBS volume sizes on the fly,including changing the size and storage type
+
+8.volume will be in the same availability zone as EC2 instance 
+
+9.to take volume to other AZ we need to take snapshort or image and then copy it to another AZ.
+
+
+ 

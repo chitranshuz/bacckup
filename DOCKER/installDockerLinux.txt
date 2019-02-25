@@ -1,0 +1,20 @@
+INSTALL DOCKER ON LINUX-----------------------------------------------------------------------
+
+1.three main ways to install docker on linux are: script, store, or docker-machine.
+
+Setting up docker and also install--------http://store.docker.com------------------------------
+
+1.we can go to the above link and install the docker version needed like for ubuntu 16.04 or we can go to (http;//
+get.docker.com) for the script to install docker which is automated.(just need to copy paste).
+
+                       curl -fsSl get.docker.com -o get-docker.sh
+after that docker is install in the machine and we can use it using sudo in prefix but another way is to give 
+docker root permission by adding it into docker group(this can be done not needed if we have security issuses).
+
+check if docker is installed by --- sudo docker version
+
+2.After installing docker we need 2 other tools "machine" and "compose".(http://docs.docker.com/machine/install-machine/)
+after installing machine check -- docker-machine version 
+and same with docker compose.(http://github.com/docker/compose/releases).new releases can be found here.
+check docker-compose version.
+

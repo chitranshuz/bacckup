@@ -1,0 +1,30 @@
+Connection points
+============================
+
+
+AWS > REGION ---> AVAILABILITY ZONE -----> DATA CENTER ------> EDGE LOCATION 
+
+
+1.AWS regions -
+An Amazon AWS region is a physical location spread across globe to host your data to reduce latency. In each region
+there will be at least two availability zones for fault tolerance.
+
+2.Availability zone -
+An AZ is a combination of one or more data centers in a given region. These datacenters need not to be separated by
+ multiple kilometers physically but by meters with in a physical compound which are completely isolated from each 
+other failure such as power, network in a given AZ.  It is a logical grouping of data centers in a given region 
+for service high availability. These AZs in a region are connected with direct Fiber optic links which have 
+capacity of around 25Tbps bandwidth and a latency of 2ms to 1ms. Below list shows availability zones in given 
+regions.
+
+3.data center -
+A datacenter is a location where actual physical data resides. 
+
+4.Edge location -
+An edge location is where end users access services located at AWS. They are located in most of the major cities 
+around the world and are specifically used by CloudFront (CDN) to distribute content to end user to reduce 
+latency. It is like frontend for the service we access which are located in AWS cloud.
+
+5.origin -
+this is the origin of all the files that the CDN will distribute.this can be either an s3 bucket,an ec2 instance ,
+an elastic load balancer or route53. 

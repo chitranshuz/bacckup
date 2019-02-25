@@ -1,0 +1,21 @@
+container VS VM -------------------------------------------------------------
+ 
+** to see the process runing in container  $docker top <container name>
+** $ ps aux      show all running processes
+
+conatainers and VM are 2 completely different thinks 
+
+whats going on in container-------------------------------------------------
+
+docker container top - process list in one container 
+docker container inspect - details of one container config
+docekr container stats - performance stats for all containers
+
+getting a shell in containre------------------------------------------------
+
+docker container run -it  - start new container interactively
+docker container exec -it - run additional cmd in existing container
+
+
+
+

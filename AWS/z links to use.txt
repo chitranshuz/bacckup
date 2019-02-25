@@ -1,0 +1,5 @@
+
+links to use 
+===================
+cloudping.info
+cloud-image.ubuntu / https://cloud-images.ubuntu.com/locator/ec2/

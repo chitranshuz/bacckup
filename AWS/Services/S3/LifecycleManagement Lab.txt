@@ -1,0 +1,10 @@
+life cycle management lab 
+
+.can be used in conjunction with versioning .
+.can be applied to any version.
+  
+-action that can be done now 
+================================
+.transition to the standard infrequent access storage class in 30 days .
+.to glacier storage 60 days
+.permanetly deleted  

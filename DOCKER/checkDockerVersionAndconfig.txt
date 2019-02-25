@@ -1,0 +1,5 @@
+check out docker version and configure it ---------------------------------------
+
+$ docker version 
+$ docker info
+$ docker   --------- > gives the cmd we can use in docker.

@@ -1,0 +1,44 @@
+S3
+======================================================================
+.s3 is object based allows to upload files.
+.size 0bytes-5TB
+.there is unlimited storage but paid per/some unit .
+.files are stored in buckets buckets are like file can have additional files inside.
+.s3 bucket name must be unique globally 
+.after successfull upload -http 200 code.
+
+Data consistency model for s3
+=====================================================================
+.read after write consistency for PUTS of new Object : means if we write a file we can see it after words just milli
+sec after.
+
+.Eventual consistency for overwrite puts and delete : takes some time to propagate.
+
+Simple key value store
+=====================================================================
+s3 object based.
+ -key 
+ -value 
+ -version ID
+ -metadata(data about data)
+ -subresources
+   -access controle lists
+   -torrent
+
+Storage Tiers/Classes
+=====================================================================
+S3 standard - 99.99% available ,durable , stored redundantly across multiple devices and multiple availabilty zones
+               used when data is frequently accessed 
+
+S3 IA - data accessed less frequently but requires rapid access when needed.
+
+S3 ONE ZONE IA - low cost for frequently accessed data  but no multiple availabulity zones .
+
+Glacier - very cheap .
+
+
+               
+  
+
+
+					 

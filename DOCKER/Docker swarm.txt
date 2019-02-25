@@ -1,0 +1,19 @@
+docker swarm------------------------------------------------
+
+check if swarm is active or not 
+$ docker info scroll down and search for swarm:inactive/active 
+
+$ docker swarm init                 will run the swarm 
+
+docker swarm init : what happened 
+
+1.a token is created so that other worker nodes can be joined with manager node
+
+
+$docker node ls to see all nodes 
+$docker node --help 
+$docker swarm --help
+$docker service --help
+
+
+ 

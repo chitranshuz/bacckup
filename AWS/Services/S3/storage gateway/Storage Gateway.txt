@@ -1,0 +1,16 @@
+storage gateway -
+===================
+
+service that connect an on-premises software appliance with cloud-based storage to provide seamless and secure
+integration btw an organization and AWS storage infrastructure. 
+
+four type of gate way
+.file gateway
+.volume gateway 
+  -stored volumes 
+  -cached volumes
+.tape gateway
+
+
+file gateway- files are stored as object 
+
